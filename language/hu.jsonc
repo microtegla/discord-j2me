@@ -1052,10 +1052,11 @@
     // Suffixes for the new style of "View (number) attachments" buttons, singular and plural.
     // Now there are separate types of buttons for "View X files" and "View X images"
     // "Images" are for any file types that are previewable as images (which also includes videos), "files" are for any other type of file.
-    " file",
-    " files",
-    " image",
-    " images"
+    // note to self, future re-translator and developer: in this case, plural is not used (not 14 fájlok, but 14 fájl)
+    " fájl",
+    " fájl",
+    " kép",
+    " kép"
 
     // NOTE for translators:
     // The string with the comment "Information text shown in login screen related to proxyless mode"
